@@ -4,7 +4,7 @@ public class SwitchCase {
 	
 	public static void main(String[] args) {
 		
-		int  day = 3;
+		int  day = 4;
 		
 		switch (day) {
 		
@@ -19,11 +19,18 @@ public class SwitchCase {
 		case 3 :
 			System.out.println("Wednesday");
 		    break;
+		
 		default :
 			System.out.println("There is No Case Number Exist");
 		
 		
 		}
+		
+		
+		
+		
+		
+	
 		
 	}
 

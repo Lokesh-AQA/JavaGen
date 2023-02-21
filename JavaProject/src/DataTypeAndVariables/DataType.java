@@ -33,11 +33,18 @@ public class DataType {
         System.out.println(myNum6);
         
         //Character
-        char myNum7= 'B';
+        char myNum7= 'B';  // Single quote
         System.out.println(myNum7);
+        
+        //String
+        String str= "Ignite";   
+        System.out.println(str);
+        // Whatever inside double quote is consider as String Example Numeric or AlphaNumeric or Character.
         
 	}
 
 }
 
+// Primitive DataType is "String"
+// Non Primitive dataType is Listed Above
 

@@ -2,7 +2,7 @@ package Exceptions;
 
 public class JavaException {
 
-	public static void main(String[] args) {            
+	public static void main(String[] args) {       //Main Method      
                                     
 		try {
 
@@ -14,7 +14,7 @@ public class JavaException {
 
 		} catch (Exception e) {
 
-			System.out.println("Rest of the Program...." + e);
+			System.out.println("Rest of the Program...." +   e);
 		}
 	}
 }

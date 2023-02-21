@@ -6,13 +6,14 @@ public class StaticAndNonStaticMethod { // Execution always start from MAIN METH
 
 		System.out.println("Under Main Method");
 		
-	//  ClassName referneceVariable = new Classname();
+	    //  ClassName referneceVariable = new Classname();
 		
-		StaticAndNonStaticMethod one = new StaticAndNonStaticMethod();      // Object Creation
+		StaticAndNonStaticMethod one = new StaticAndNonStaticMethod();      // Object Created
 		one.a();                                    // Interlinking the Methods
 		one.b();
 		
 		StaticAndNonStaticMethod.c(); 
+		
 		
 		StaticAndNonStaticMethod.d();
 		
@@ -30,9 +31,10 @@ public class StaticAndNonStaticMethod { // Execution always start from MAIN METH
 		System.out.println("Under Method B");
 	}
 	
-	public static void c() {                // Compartment 3 Static Method
+	public static  int c() {                // Compartment 3 Static Method
 		
 		System.out.println("Under Method C");
+		return 5;
 	}
 	
 	public static void d() {            // Compartment 4 Static Method

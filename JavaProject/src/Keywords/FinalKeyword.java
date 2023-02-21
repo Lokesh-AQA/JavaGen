@@ -2,7 +2,7 @@ package Keywords;
 
 public class FinalKeyword {
 
-    final static int x = 10;                      // Global Declaration      
+    final static int y = 20;                      // Global Declaration      
 	 
 	public static void main(String[] args) {   
 		
@@ -12,7 +12,7 @@ public class FinalKeyword {
 		
 		//x = 25;
 		
-		System.out.println(x); 
+		System.out.println(y); 
 		
 	}
 }

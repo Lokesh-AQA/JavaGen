@@ -8,7 +8,7 @@ public class DoWhile {
 		
 		do {
 			System.out.println(i);
-			i++;
+			i=i+2;                         // i++ or i=i+1; both are same
 			
 		} while ( i < 5 );
 	}

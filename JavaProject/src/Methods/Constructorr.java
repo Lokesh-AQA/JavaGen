@@ -1,10 +1,12 @@
 package Methods;
 
-public class Constructorr {
+public class Constructorr {                // Constructor Name and Class name should be Same
 
 	@SuppressWarnings("unused")
+	
 	public static void main(String[] args) {               // Engine 
-		Constructorr cons = new Constructorr();  // Object Created
+		
+		Constructorr cons = new Constructorr();           // Object Created
 		
 	}
 	
